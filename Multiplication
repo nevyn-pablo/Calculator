@@ -1,1 +1,15 @@
+import java.util.Scanner; //Scanner class
 
+public class Addition{
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in); //Created Scanner object
+        System.out.println("Enter first number: ");
+        float num1 = in.nextFloat(); //Reads the user input
+        System.out.println("Enter second number: ");
+        float num2 = in.nextFloat();
+
+        float prod = num1 / num2; //Gets the product of the user's inputs
+
+        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + prod); //Prints the product of the user's number
+    }
+}
